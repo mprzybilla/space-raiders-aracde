@@ -6,7 +6,11 @@
 
 Ein 2D Retro-Arcade-Spiel im Stil der klassischen Weltraum-Shooter der 80er. Komplett in Vanilla-JS, HTML5 Canvas und CSS umgesetzt. 
 
-Keine Frameworks, keine Build-Tools, einfach im Browser öffnen und losspielen.
+Keine Frameworks, keine Build-Tools, einfach im Browser öffnen und losspielen:
+
+<p align="center">
+  <a href="https://mprzybilla.github.io/space-raiders-aracde/">[ JETZT SPIELEN ] </a>
+</p>
 
 ## Über das Spiel
 
@@ -30,6 +34,3 @@ Du steuerst ein Raumschiff und musst dich so lange wie möglich gegen anrückend
 | `SPACE`          | Schießen      |
 | `P`              | Pause         |
 | `ENTER`          | Neustart      |
-
-## Jetzt spielen
-
