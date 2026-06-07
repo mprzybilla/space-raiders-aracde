@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Space Raiders Logo" width="200">
+    <a href="https://mprzybilla.github.io/space-raiders-aracde/">
+        <img src="assets/logo.png" alt="Space Raiders Logo" width="200" />
+    </a>
 </p>
 
 # SPACE RAIDERS
