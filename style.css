@@ -1,0 +1,141 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Courier New', monospace;
+    color: #0ff;
+    overflow: hidden;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+#gameTitle {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: #0ff;
+    text-shadow: 0 0 12px #0ff, 0 0 30px #0cf8;
+    text-transform: uppercase;
+    border-bottom: 1px solid #0cf5;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+#gameTitle span {
+    color: #f55;
+    text-shadow: 0 0 12px #f55, 0 0 30px #f338;
+}
+
+#gameContainer {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+canvas {
+    border: 2px solid #0cf;
+    box-shadow: 0 0 20px #0cf4, 0 0 60px #0cf1;
+    display: block;
+}
+
+#sidebar {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 4px;
+}
+
+.stat-box {
+    border: 1px solid #0cf;
+    padding: 14px 10px;
+    text-align: center;
+    background: #000a14;
+    box-shadow: 0 0 10px #0cf3 inset;
+}
+
+.stat-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #077;
+    margin-bottom: 10px;
+}
+
+.stat-value {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+.stat-detail {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #0cf3;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.detail-icon {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #055;
+}
+
+.detail-val {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0aa;
+    text-shadow: 0 0 6px #0aa;
+}
+
+#pauseBtn {
+    background: #000a14;
+    border: 1px solid #0cf;
+    color: #0cf;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding: 11px 10px;
+    cursor: pointer;
+    width: 100%;
+    text-shadow: 0 0 8px #0cf;
+    box-shadow: 0 0 8px #0cf2 inset;
+    transition: background 0.15s, box-shadow 0.15s;
+}
+
+#pauseBtn:hover {
+    background: #0cf2;
+    box-shadow: 0 0 16px #0cf4 inset;
+}
+
+#controls {
+    font-size: 11px;
+    color: #055;
+    border: 1px solid #033;
+    padding: 12px 10px;
+    background: #00050a;
+    line-height: 1.8;
+}
+
+#controls .ctrl-title {
+    color: #077;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
